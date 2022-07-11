@@ -68,5 +68,5 @@ function watch() {
   gulp.watch(tsconfig.include.map((include) => path.join(include, '**/*')), build);
 }
 
-exports.watch = watch
+exports.watch = watch;
 exports.default = build;
